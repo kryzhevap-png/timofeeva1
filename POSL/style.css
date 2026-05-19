@@ -1,0 +1,103 @@
+body{
+
+    background:#f4f7fb;
+
+    font-family:Arial, sans-serif;
+
+}
+
+/* navbar */
+
+.navbar-brand{
+
+    font-weight:bold;
+
+    font-size:24px;
+
+}
+
+/* slider */
+
+.slider-img{
+
+    height:400px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+/* cards */
+
+.card{
+
+    border:none;
+
+    transition:0.3s;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.course-img{
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+/* buttons */
+
+.btn{
+
+    transition:0.3s;
+
+}
+
+.btn:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* footer */
+
+footer{
+
+    margin-top:60px;
+
+}
+
+/* mobile */
+
+@media(max-width:390px){
+
+    .slider-img{
+
+        height:220px;
+
+    }
+
+    .course-img{
+
+        height:180px;
+
+    }
+
+    h2{
+
+        font-size:24px;
+
+    }
+
+}
